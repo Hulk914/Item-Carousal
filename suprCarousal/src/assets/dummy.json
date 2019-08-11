@@ -1,0 +1,76 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "category": "cat1",
+            "title": "title1",
+            "price": 21,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 2,
+            "category": "cat2",
+            "title": "title2",
+            "price": 211,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 3,
+            "category": "cat3",
+            "title": "title3",
+            "price": 201,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 4,
+            "category": "cat1",
+            "title": "title4",
+            "price": 21,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 5,
+            "category": "cat2",
+            "title": "title5",
+            "price": 211,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 6,
+            "category": "cat3",
+            "title": "title6",
+            "price": 201,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 7,
+            "category": "cat1",
+            "title": "title7",
+            "price": 21,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 8,
+            "category": "cat2",
+            "title": "title8",
+            "price": 211,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        },
+        {
+            "id": 9,
+            "category": "cat3",
+            "title": "title9",
+            "price": 201,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZS_VU8nmQtunyqBYqEMoLYjSCoqE66ArtD25SlINwL4I-hsXg",
+            "currency": "Rs."
+        }
+    ]
+}

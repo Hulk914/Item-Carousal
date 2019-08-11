@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Supr Daily</h1>
+    <!-- <p class="lead">Carousal of items</p> -->
+    <hr class="my-4">
+    <p>Item Selection using Carousal</p>
+    <!-- <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p> -->
+  </div>
+  <div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Category Search" aria-label="Recipient's username"
+      aria-describedby="basic-addon2" [(ngModel)]="searchText">
+    <div class="input-group-append">
+      <button class="btn btn-primary" type="button" (click)="addSearchCriteria()">Add</button>
+      <button *ngIf="criteriaList.length > 0" class="btn btn-danger" (click)="clearSearchCriteria()">Clear All</button>
+    </div>
+  </div>
+  <div class="d-flex justify-content-around mb-3">
+    <div *ngFor="let criteria of criteriaList" class="p-2 badge badge-pill badge-info">
+      {{criteria}}
+    </div>
+  </div>
+  <div class="d-flex justify-content-around align-items-center border p-5">
+    <div class="align-self-center grow" (click)="handleLeft()">
+      <fa name="arrow-left" size="4x"></fa>
+    </div>
+    <div *ngFor="let item of carousalList; let i=index">
+      <app-carousal-card [isMiddle]="i===1" [itemDetails]="item"></app-carousal-card>
+    </div>
+    <div *ngIf="carousalList.length === 0">
+      <h2>No Records Found! Change your search Criteria</h2>
+    </div>
+    <div class="align-self-center grow" (click)="handleRight()">
+      <fa name="arrow-right" size="4x"></fa>
+    </div>
+  </div>
+</div>

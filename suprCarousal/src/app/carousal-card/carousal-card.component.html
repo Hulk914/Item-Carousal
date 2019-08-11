@@ -1,0 +1,8 @@
+<div class="card" [ngClass]="{'middleItem': isMiddle, 'edgeItem': !isMiddle}">
+  <img class="card-img-top" [src]="itemDetails?.image" alt="image loading... ">
+  <div class="card-body">
+    <h5 class="card-title">{{itemDetails?.title}}</h5>
+    <p class="card-text">{{itemDetails?.currency}} {{itemDetails?.price}}</p>
+    <a href="#" class="btn btn-primary">Add to Cart</a>
+  </div>
+</div>
